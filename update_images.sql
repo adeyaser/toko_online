@@ -1,0 +1,22 @@
+UPDATE products SET image = 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=600&auto=format&fit=crop&q=80' WHERE id = 1;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600&auto=format&fit=crop&q=80' WHERE id = 2;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=80' WHERE id = 3;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600&auto=format&fit=crop&q=80' WHERE id = 4;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&auto=format&fit=crop&q=80' WHERE id = 5;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=80' WHERE id = 6;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&auto=format&fit=crop&q=80' WHERE id = 7;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&auto=format&fit=crop&q=80' WHERE id = 8;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&auto=format&fit=crop&q=80' WHERE id = 9;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=600&auto=format&fit=crop&q=80' WHERE id = 10;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&auto=format&fit=crop&q=80' WHERE id = 11;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&auto=format&fit=crop&q=80' WHERE id = 12;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&auto=format&fit=crop&q=80' WHERE id = 13;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=600&auto=format&fit=crop&q=80' WHERE id = 14;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600&auto=format&fit=crop&q=80' WHERE id = 15;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600&auto=format&fit=crop&q=80' WHERE id = 16;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80' WHERE id = 17;
+UPDATE products SET image = 'https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=600&auto=format&fit=crop&q=80' WHERE id = 18;
+
+UPDATE banners SET image = 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1400&auto=format&fit=crop&q=85' WHERE id = 1;
+UPDATE banners SET image = 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1400&auto=format&fit=crop&q=85' WHERE id = 2;
+UPDATE banners SET image = 'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=1400&auto=format&fit=crop&q=85' WHERE id = 3;

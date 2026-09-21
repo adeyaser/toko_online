@@ -476,27 +476,31 @@
 
 .simple-chart .bar .bar-value {
     position: absolute;
-    top: -24px;
+    top: -26px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 0.68rem;
-    color: #475569;
+    color: #334155;
     font-weight: 700;
     white-space: nowrap;
-    opacity: 0.9;
+    opacity: 0.95;
     transition: all var(--transition-fast);
-    background: #F8FAFC;
-    padding: 1px 5px;
+    background: #FFFFFF;
+    padding: 2px 6px;
     border-radius: 4px;
-    border: 1px solid #E2E8F0;
+    border: 1px solid #CBD5E1;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+    z-index: 5;
+    pointer-events: none;
 }
 
 .simple-chart .bar:hover .bar-value {
     opacity: 1;
     color: var(--primary);
-    border-color: #C7D2FE;
+    border-color: #818CF8;
     background: #EEF2FF;
-    transform: translateX(-50%) scale(1.08);
+    transform: translateX(-50%) scale(1.05);
+    box-shadow: 0 3px 8px rgba(79, 70, 229, 0.18);
 }
 
 /* Recent Orders in Dashboard */
@@ -712,9 +716,12 @@
     }
     
     .simple-chart .bar .bar-value {
-        font-size: 0.58rem;
-        padding: 1px 3px;
-        top: -24px;
+        font-size: 0.6rem;
+        padding: 1px 4px;
+        top: -25px;
+        background: #FFFFFF;
+        border: 1px solid #CBD5E1;
+        z-index: 5;
     }
     
     /* Recent Orders Item on Mobile */

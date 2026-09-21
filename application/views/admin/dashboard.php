@@ -57,10 +57,10 @@
             if ($m['total'] > $max_revenue) $max_revenue = $m['total'];
         }
         ?>
-        <div class="chart-scroll-wrapper" style="overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 6px;">
-            <div class="simple-chart" style="margin-bottom: 35px; height: 210px; min-width: 320px;">
+        <div class="chart-scroll-wrapper" style="overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 34px 16px 10px 16px;">
+            <div class="simple-chart" style="margin-bottom: 28px; height: 185px; min-width: 320px;">
                 <?php foreach ($monthly_revenue as $m): ?>
-                <?php $height_pct = $max_revenue > 0 ? ($m['total'] > 0 ? max(12, ($m['total'] / $max_revenue) * 100) : 4) : 4; ?>
+                <?php $height_pct = $max_revenue > 0 ? ($m['total'] > 0 ? max(12, round(($m['total'] / $max_revenue) * 82)) : 5) : 5; ?>
                 <div class="bar" style="height: <?= $height_pct; ?>%; transition: height 0.8s ease;" title="<?= $m['month']; ?>: <?= rupiah($m['total']); ?>">
                     <span class="bar-value"><?= $m['total'] > 0 ? rupiah($m['total']) : '-'; ?></span>
                     <span class="bar-label"><?= $m['month']; ?></span>

@@ -49,7 +49,6 @@
     <div class="chart-card">
         <div class="chart-card-header" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
             <h3 style="margin: 0; font-size: 1.05rem;">Pendapatan 6 Bulan Terakhir</h3>
-            <span class="badge badge-info" style="font-size: 0.72rem; padding: 4px 10px;">Hanya Pesanan Terkonfirmasi</span>
         </div>
         <?php
         $max_revenue = 1;

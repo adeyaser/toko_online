@@ -118,7 +118,7 @@
         <div class="form-row">
             <div class="form-group">
                 <label class="form-label">X-RapidAPI-Key (Cek Resi & Ekspedisi)</label>
-                <input type="text" name="rapidapi_key" class="form-control" value="<?= isset($settings['rapidapi_key']) ? $settings['rapidapi_key'] : ''; ?>" placeholder="API Key dari rapidapi.com">
+                <input type="text" name="rapidapi_key" class="form-control" value="<?= isset($settings['rapidapi_key']) ? htmlspecialchars($settings['rapidapi_key']) : ''; ?>" placeholder="API Key dari rapidapi.com">
             </div>
             <div class="form-group">
                 <label class="form-label">RapidAPI Host</label>
